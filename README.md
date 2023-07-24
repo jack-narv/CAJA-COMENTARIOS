@@ -26,5 +26,3 @@ CONTROLADOR DE VERSIONES
 - git versión 2.41.0.windows.3
 
 
-
-con node en versión v18.17.0, npm versión 9.8.1, 
