@@ -1,0 +1,39 @@
+/* Layout.css */
+.navbar {
+    background-color: #21294e;
+    padding: 10px;
+  }
+  
+  .title {
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    margin-bottom: 20px; /* Espacio entre la barra de navegación y el título */
+  }
+
+  .subtitle {
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    font-size: 14px; /* Tamaño de la letra pequeña */
+    margin: 0; /* Eliminar margen para pegarlo al título principal */
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar hr {
+    margin: 10px 0;
+    border-color: white;
+  }
+  

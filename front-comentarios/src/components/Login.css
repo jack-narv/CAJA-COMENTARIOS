@@ -1,0 +1,67 @@
+/* Login.css */
+
+/* Estilos para el contenedor principal */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #f5f8fa;
+  }
+  
+  /* Estilos para el formulario */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 680px; /* Ancho fijo de 680px */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  /* Estilos para el título */
+  .login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-container label {
+    width: 100px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Estilos para el botón de enviar */
+  .login-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }

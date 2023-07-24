@@ -1,0 +1,176 @@
+/* ComentariosEsteticos.css */
+
+/* Estilos para el contenedor principal */
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f8fa;
+  }
+
+  /* Estilos para la caja de comentarios principales */
+  .comentario-container {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 680px; /* Ancho fijo de 680px para comentarios principales */
+  }
+
+  /* Ajustar el tamaño máximo del contenedor con scroll para que no ocupe más de lo deseado */
+  .comentarios-scroll {
+    max-height: 600px; 
+    overflow-y: auto;
+  }
+  
+  /* Estilos para la foto del usuario */
+  .usuario-foto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para el nombre del usuario */
+  .usuario-nombre {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  
+  /* Estilos para el comentario del usuario */
+  .usuario-comentario {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Estilos para las réplicas */
+  .replicas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  
+  /* Estilos para el contenedor de las réplicas */
+  .replica-container {
+    max-width: 680px; /* Ancho máximo de 680px para réplicas */
+  }
+  
+  /* Estilos alternados para réplicas */
+  .replica-azul {
+    background-color: #e3f2fd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+  
+  .replica-blanco {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para los íconos de los comentarios */
+  .iconos-comentario {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  
+  .iconos-comentario span {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+ /* Estilos para el cuadro de texto y el botón */
+.nuevo-comentario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 680px; /* Ancho fijo de 680px */
+  }
+  
+  .nuevo-comentario textarea {
+    width: 97%; /* El textarea ocupará todo el ancho disponible */
+    height: 50px; /* Altura de 150px para el área de texto */
+    resize: none;
+    padding: 8px;
+    margin-bottom: 10px; /* Agregamos un margen inferior para separar el textarea del botón */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .nuevo-comentario button {
+    align-self: flex-end; /* Alineamos el botón a la derecha */
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .nuevo-comentario button:hover {
+    background-color: #0056b3;
+  }
+
+
+  /* Estilos para la información del usuario (nombre y foto) */
+.usuario-info {
+    display: flex;
+    align-items: center; /* Alineamos verticalmente los elementos */
+    margin-bottom: 10px; /* margen inferior para separar el usuario-info del textarea */
+  }
+  
+/* Estilos para el cuadro de respuesta */
+.reply-box {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 100%; /* Ocupa todo el ancho del comentario */
+  }
+  
+
+  .reply-box textarea {
+    width: 97%;
+    height: 50px;
+    resize: none;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .reply-box button {
+    align-self: flex-end;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .reply-box button:hover {
+    background-color: #0056b3;
+  }
+
